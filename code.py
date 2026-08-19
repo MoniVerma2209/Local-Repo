@@ -6,16 +6,17 @@ if op == '+':
     print(a + b)
 elif op == '-':
     print(a - b)    
-if op == '*':
+elif op == '*':
     print(a * b)
 elif op == '**':
     print(a ** b)
-if op == '/':
+elif op == '/':
     print(a / b)
 elif op == '%':
     print(a % b)    
 else:
-    print("Invalid Operator")
+    print("Invalid Operation")
+    
 
 
 
